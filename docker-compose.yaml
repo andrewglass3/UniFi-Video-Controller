@@ -3,6 +3,7 @@ services:
   unifi-video-controller:
 #    build: .
     image: pducharme/unifi-video-controller:latest
+    restart: always
     ports:
       - 1935:1935
       - 6666:6666
